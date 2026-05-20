@@ -61,7 +61,7 @@ ChromeDriver is managed automatically by `webdriver-manager`.
 | Variable | Default | Description |
 |---|---|---|
 | `BASE_URL` | `https://qae-assignment-tau.vercel.app` | Application base URL |
-| `USER_ID` | `candidate-O7q5FfY5jx` | Test user ID |
+| `USER_ID` | *(set in `.env`)* | Test user ID |
 | `HEADLESS` | `true` | Set to `false` to watch the browser |
 
 Set via a `.env` file in the project root (copy from `.env.example`):
