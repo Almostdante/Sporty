@@ -64,7 +64,12 @@ ChromeDriver is managed automatically by `webdriver-manager`.
 | `USER_ID` | `candidate-O7q5FfY5jx` | Test user ID |
 | `HEADLESS` | `true` | Set to `false` to watch the browser |
 
-Override via environment variable or `.env` file in the project root.
+Set via a `.env` file in the project root (copy from `.env.example`):
+
+```bash
+cp .env.example .env
+# then edit .env and set your USER_ID
+```
 
 ---
 

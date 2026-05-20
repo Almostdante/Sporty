@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BASE_URL: str = os.getenv("BASE_URL", "https://qae-assignment-tau.vercel.app")
-USER_ID: str = os.getenv("USER_ID", "candidate-O7q5FfY5jx")
+USER_ID: str = os.getenv("USER_ID", "")
 
 # Stake limits from spec
 MIN_STAKE: float = 1.00
